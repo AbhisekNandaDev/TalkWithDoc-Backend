@@ -2,7 +2,7 @@
 # TalkWithDoc: Retrieval-Augmented Generation (RAG) Implementation with Large Language Models (LLMs)
 
 ## Overview
-TalkWithDoc is a project aimed at enabling users to interact with web content through a conversational interface powered by Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs). The project utilizes cutting-edge technologies to crawl data from web pages, convert it into vectorized format, and then employ a MixtR8 8x7b LLM model via Groq API to generate responses to user queries.
+TalkWithDoc is a project aimed at enabling users to interact with web content through a conversational interface powered by Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs). The project utilizes cutting-edge technologies to crawl data from web pages, convert it into vectorized format, and then employ a Mixtral 8x7b LLM model via Groq API to generate responses to user queries.
 
 ## Features
 - Web scraping: Extracts relevant text data from user-provided web links.
@@ -19,3 +19,8 @@ TalkWithDoc is a project aimed at enabling users to interact with web content th
 1. Clone the repository:
    ```bash
    git clone https://github.com/your_username/TalkWithDoc.git
+
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv env
+
