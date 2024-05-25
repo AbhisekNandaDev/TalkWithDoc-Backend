@@ -24,3 +24,17 @@ TalkWithDoc is a project aimed at enabling users to interact with web content th
    ```bash
    python -m venv env
 
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4.Configuration:
+   Update API key and host in the .env file:
+   Obtain your API key from Groq API.
+   Update the API_KEY and HOST variables in the .env file with your credentials.
+
+5.Run the main script:
+   ```bash
+   python main.py
+
+
